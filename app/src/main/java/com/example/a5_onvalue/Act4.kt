@@ -1,6 +1,7 @@
 package com.example.a5_onvalue
 
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
@@ -14,5 +15,9 @@ fun FormDataDiri(modifier: Modifier){
     var textJK by remember { mutableStateOf("") }
     val gender: List<String> = listOf("Laki-laki", "Perempuan")
 
+    var nama by remember { mutableStateOf("") }
+    var alamat by remember { mutableStateOf("") }
+    var jenis by remember { mutableStateOf("") }
     
+
 }
