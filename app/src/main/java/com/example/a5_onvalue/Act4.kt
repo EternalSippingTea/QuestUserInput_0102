@@ -73,7 +73,7 @@ fun FormDataDiri(modifier: Modifier){
             value = textAlamat,
             singleLine = true,
             modifier = Modifier.width(250.dp),
-            label = { Text(text = "Alamat") },
+            label = { Text("Alamat") },
             onValueChange = {
                 textAlamat = it
             }
@@ -117,9 +117,9 @@ fun FormDataDiri(modifier: Modifier){
                 .width(300.dp)
         ){
             Column(modifier = Modifier.padding(horizontal = 5.dp, vertical = 15.dp)) {
-                Text(text = "Nama : $nama", color = Color.White)
-                Text(text = "Jenis Kelamin : $jenis", color = Color.White)
-                Text(text = "Alamat : $alamat", color = Color.White)
+                Text(text = "Nama : "+nama, color = Color.White)
+                Text(text = "Jenis Kelamin : "+jenis, color = Color.White)
+                Text(text = "Alamat : "+alamat, color = Color.White)
             }
         }
     }
