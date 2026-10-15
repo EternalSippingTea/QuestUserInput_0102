@@ -114,7 +114,7 @@ fun FormDataDiri(modifier: Modifier){
             colors = CardDefaults.cardColors(containerColor = Color.Black),
             modifier = Modifier
                 .height(100.dp)
-                .width(250.dp)
+                .width(300.dp)
         ){
 
     }
